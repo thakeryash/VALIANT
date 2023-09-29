@@ -1,0 +1,442 @@
+/*-------------------------------------------------
+   header css start
+-------------------------------------------------*/
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+body {
+    background-color: #141416;
+    color: #fff;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+}
+.header .input{
+    width: 50%;
+}
+.header .input input {
+    padding: 4px 0 5px 10px;
+    position: relative;
+    width: 100%;
+}
+.header .input input {
+    padding: 5px 0 5px 10px;
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.header .input i {
+    background-color: #22e594;
+    padding: 6px;
+    position: absolute;
+    top: 34px;
+    right: 435px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.header-shop {
+    display: flex;
+    font-size: 8px;
+}
+.header-icon {
+    margin-right: 33px;
+    font-size: 5px;
+}
+.header-icon span {
+    font-size: 15px;
+}
+.header-icon a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-icon i{
+    font-size: 25px;
+    color: #22e594;
+}
+.menu {
+    background-color: #35353d;
+}
+.shop-menu ul {
+    display: flex;
+}
+.shop-menu ul li i {
+    margin-right: 8px;
+    color: #22e594;
+}
+.shop-menu ul li {
+    padding: 5px 0;
+    margin-right: 56px;
+    list-style: none;
+}
+.shop-menu ul li span {
+    color: #22e594;
+}
+
+
+
+/*-------------------------------------------------
+*   header css end
+-------------------------------------------------*/
+
+
+/*-------------------------------------------------
+*   banner css start
+-------------------------------------------------*/
+.home-benar img{
+width: 100%;
+}
+.home-benar {
+    position: relative;
+    margin-bottom: 35px;
+}
+.benar-text {
+    position: absolute;
+    top: 65px;
+    right: 162px;
+    text-align: center;
+}
+/*-------------------------------------------------
+*   banner css start
+-------------------------------------------------*/
+.benar-text h2 {
+    font-size: 69px;
+    font-family: sans-serif;
+}
+.benar-text span {
+    font-size: 53px;
+    display: block;
+    margin-top: -28px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.benar-text p {
+    font-size: 24px;
+    margin-top: 11px;
+    font-family: sans-serif;
+}
+.benar-text a {
+    padding: 7px;
+    display: block;
+    background-color: #22e594;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+}
+.benar-text a i {
+    margin-left: 5px;
+}
+/*-------------------------------------------------
+*   banner css end
+-------------------------------------------------*/
+
+.clothing {
+    display: flex;
+    margin-bottom: 30px;
+}
+.woman {
+    width: 50%;
+    padding: 0 10px;
+    position: relative;
+}
+.woman img{
+    width: 100%;
+}
+.woman-text {
+    position: absolute;
+    top: 84px;
+    left: 59px;
+}
+.woman-text h2 {
+    font-size: 38px;
+    font-family: sans-serif;
+}
+.woman-text a {
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid;
+    color: #22e594;
+    margin-top: 21px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.boxing {
+    display: flex;
+    margin-bottom: 30px;
+}
+.gym-ball{
+width: 33.33%;
+position: relative;
+}
+.gym-ball img {
+    width: 100%;
+    padding: 0 10px;
+}
+.boximg-text {
+    position: absolute;
+    top: 57%;
+    left: 23%;
+    text-align: center;
+}
+.boximg-text h2 {
+    font-size: 33px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.boximg-text a {
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid;
+    color: #22e594;
+    margin-top: 21px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 13px;
+} 
+:end
+.new .page-heading {
+    text-align: center;
+}
+.new h2 {
+    font-size: 20px;
+}
+.page-heading {
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-bottom: 10px;
+}
+.page-heading span {
+    color: #22e594;
+}
+
+.product-list {
+    display: flex;
+    margin: 0 -10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.product {
+    width: 25%;
+    padding: 0 10px;
+    margin: 0 0 20px;
+}
+.product .product-card {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #202229;
+}
+.product .product-card img {
+    width: 100%;
+}
+.product .product-card span img {
+    width: auto;
+    margin-left: 97px;
+}
+.product-card {
+    position: relative;
+}
+.product-image {
+    position: relative;
+}
+.dawon {
+    visibility: hidden;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    /* background-color: #94cb32; */
+    padding: 10px;
+}
+.sovar {
+    /* visibility: hidden; */
+    position: absolute;
+    top: 36%;
+    /* bottom: 0; */
+    left: 120px;
+    /* right: 0; */
+    display: flex;
+    background-color: #21d188;
+    padding: 10px;
+}
+.product-card:hover .dawon {
+    visibility: visible;
+    transition: width 2s;
+}
+.product-card:hover {
+    box-shadow: 7px 6px 8px 0px #142722;
+}
+.sovar {
+    width: 16%;
+    text-align: center;
+    border-radius: 50%;
+}
+.sovar-1 {
+    width: 100%;
+    text-align: center;
+    border-radius: 50%;
+}
+.sovar a {
+    font-size: 24px;
+    color: #000;
+}
+.sovar-1 {
+    position: absolute;
+    top: 87%;
+    right: 0px;
+}
+.sovar-1 a {
+    background-color: #22e594;
+    padding: 5px 59px;
+    font-size: 15px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+.product .product-card h3 {
+    text-align: center;
+    color: #f2f2f2;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+.product .product-card p {
+    text-align: center;
+    color: #a9a7a7;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.tow {
+    margin-left: 51px;
+    margin-bottom: 10px;
+}
+.product-card .tow span {
+    font-size: 18px;
+    color: #22e594;
+}
+.product-card .tow del {
+    color: #797979;
+}
+.spring {
+    display: flex;
+    margin-bottom: 30px;
+}
+.por-duct{
+width: 60%;
+}
+.por-duct img{
+    width: 100%;
+}
+.por-text-1{
+    width: 40%;
+    text-align: center;
+}
+.por-text-1 p {
+    margin: 20px 0;
+}
+.por-text-1 .tow span {
+    color: #22e594;
+}
+.por-text-1 a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #202229;
+    display: block;
+    padding: 10px;
+}
+.footer{
+    background-color: #35353d;
+}
+.footer-koman {
+    display: flex;
+    margin: 0 150px;
+    padding: 40px 0;
+}
+.footer-menu {
+    width: 25%;
+    margin-right: 9px;
+    position: relative;
+}
+.footer-menu-1 {
+    width: 15%;
+    margin: 0 22px;
+}
+.footer-menu-1 ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-menu p {
+    margin: 10px 0;
+    color: #c2c2c2;
+}
+.footer-menu a {
+    text-decoration: none;
+    color: #c2c2c2;
+    margin-top: 10px;
+    display: block;
+
+}
+.footer-menu-1 ul li {
+    margin: 5px 0;
+    color: #c2c2c2;
+}
+.footer-menu-1 span {
+    color: #22e594;
+}
+.footer-menu input {
+    padding: 6px 110px 3px 0;
+    margin-bottom: 10px;
+}
+.footer-icon i {
+    background-color: #22e594;
+    padding: 5px;
+    color: #000;
+    position: absolute;
+    top: 111px;
+    right: 0px;
+}
+.footer-visa i {
+    margin-right: 10px;
+}
+.ATM {
+    margin-top: 10px;
+}
+.blog {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.blog h2,p ,h3{
+    font-size: 15px;
+    color: #c2c2c2;
+}
+.blog  span {
+    color: #22e594;
+}
